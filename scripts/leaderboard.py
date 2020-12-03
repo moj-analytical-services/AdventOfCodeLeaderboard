@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 '''
 This script will grab the leaderboard from Advent of Code and post it to Slack
 '''
@@ -9,10 +7,8 @@ import sys
 import json
 import requests
 
-# see README for directions on how to fill these variables
-LEADERBOARD_ID = ""
-SESSION_ID = ""
-SLACK_WEBHOOK = ""
+# You'll need a file ~/secrets.py that defines these
+from secrets import LEADERBOARD_ID, SESSION_ID, SLACK_WEBHOOK
 
 # You should not need to change this URL
 LEADERBOARD_URL = "https://adventofcode.com/{}/leaderboard/private/view/{}".format(
