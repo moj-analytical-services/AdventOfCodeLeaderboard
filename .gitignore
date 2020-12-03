@@ -5,3 +5,6 @@ __pycache__
 
 # Logging
 *.log
+
+# (Temporary) secrets
+secrets.py
