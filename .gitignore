@@ -1,0 +1,7 @@
+# Manage environments and IDE
+.vscode/
+venv/
+__pycache__
+
+# Logging
+*.log
