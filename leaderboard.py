@@ -12,7 +12,8 @@ from secrets import LEADERBOARD_ID, SESSION_ID, SLACK_WEBHOOK
 
 # You should not need to change this URL
 LEADERBOARD_URL = "https://adventofcode.com/{}/leaderboard/private/view/{}".format(
-        datetime.datetime.today().year, LEADERBOARD_ID)
+        datetime.datetime.today().year,
+        LEADERBOARD_ID)
 
 def formatLeaderMessage(members):
     """
@@ -21,10 +22,16 @@ def formatLeaderMessage(members):
     message = ""
 
     # add each member to message
+    medals = [':third_place_medal:', ':second_place_medal:', ':trophy:']
     for username, score, stars in members:
-        message += "*{}* {} Points, {} Stars\n".format(username, score, stars)
+        if medals:
+            medal = ' ' + medals.pop()
+        else:
+            medal = ''
+        message += f"`{username:>17}` :: {score:>3} points, {stars:>3} stars{medal}\n"
 
-    message += "\n<{}|View Online Leaderboard>".format(LEADERBOARD_URL)
+    message += f"\n<{LEADERBOARD_URL}|View Leaderboard Online>"
+
 
     return message
 
@@ -32,10 +39,13 @@ def parseMembers(members_json):
     """
     Handle member lists from AoC leaderboard
     """
-    # get member name, score and stars
-    members = [(m["name"], m["local_score"], m["stars"]) for m in members_json.values()]
+    # Get member name, score and stars
+    members = [(m.get('name', 'unknown'),
+                m.get('local_score', 0),
+                m.get('stars', 0)
+                ) for m in members_json.values()]
 
-    # sort members by score, decending
+    # Sort members by score, descending
     members.sort(key=lambda s: (-s[1], -s[2]))
 
     return members
