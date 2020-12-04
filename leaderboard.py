@@ -22,10 +22,16 @@ def formatLeaderMessage(members):
     message = ""
 
     # add each member to message
+    medals = [':third_place_medal:', ':second_place_medal:', ':trophy:']
     for username, score, stars in members:
-        message += f"`{username:>17}` :: {score:<3} Points, {stars:<3} Stars\n"
+        if medals:
+            medal = ' ' + medals.pop()
+        else:
+            medal = ''
+        message += f"`{username:>17}` :: {score:>3} points, {stars:>3} stars{medal}\n"
 
     message += f"\n<{LEADERBOARD_URL}|View Leaderboard Online>"
+
 
     return message
 
