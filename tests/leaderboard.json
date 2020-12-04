@@ -1,0 +1,380 @@
+{
+    "owner_id": "1048178",
+    "members": {
+        "392639": {
+            "local_score": 39,
+            "id": "392639",
+            "last_star_ts": "1607086747",
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "get_star_ts": "1606845183"
+                    },
+                    "2": {
+                        "get_star_ts": "1606845477"
+                    }
+                },
+                "2": {
+                    "1": {
+                        "get_star_ts": "1606922205"
+                    },
+                    "2": {
+                        "get_star_ts": "1606923090"
+                    }
+                },
+                "3": {
+                    "1": {
+                        "get_star_ts": "1606976579"
+                    },
+                    "2": {
+                        "get_star_ts": "1606977104"
+                    }
+                },
+                "4": {
+                    "1": {
+                        "get_star_ts": "1607085242"
+                    },
+                    "2": {
+                        "get_star_ts": "1607086747"
+                    }
+                }
+            },
+            "stars": 8,
+            "global_score": 0,
+            "name": "Mike Ratford"
+        },
+        "1041512": {
+            "local_score": 49,
+            "id": "1041512",
+            "name": "Sam Lindsay",
+            "last_star_ts": "1607084233",
+            "global_score": 0,
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "get_star_ts": "1606838461"
+                    },
+                    "2": {
+                        "get_star_ts": "1606843027"
+                    }
+                },
+                "2": {
+                    "1": {
+                        "get_star_ts": "1606910986"
+                    },
+                    "2": {
+                        "get_star_ts": "1606912259"
+                    }
+                },
+                "3": {
+                    "1": {
+                        "get_star_ts": "1606986742"
+                    },
+                    "2": {
+                        "get_star_ts": "1606988822"
+                    }
+                },
+                "4": {
+                    "1": {
+                        "get_star_ts": "1607072791"
+                    },
+                    "2": {
+                        "get_star_ts": "1607084233"
+                    }
+                }
+            },
+            "stars": 8
+        },
+        "1047164": {
+            "last_star_ts": "1607087900",
+            "global_score": 0,
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "get_star_ts": "1606842703"
+                    },
+                    "2": {
+                        "get_star_ts": "1606843701"
+                    }
+                },
+                "2": {
+                    "1": {
+                        "get_star_ts": "1606909709"
+                    },
+                    "2": {
+                        "get_star_ts": "1606911048"
+                    }
+                },
+                "3": {
+                    "1": {
+                        "get_star_ts": "1606989280"
+                    },
+                    "2": {
+                        "get_star_ts": "1606996026"
+                    }
+                },
+                "4": {
+                    "1": {
+                        "get_star_ts": "1607082894"
+                    },
+                    "2": {
+                        "get_star_ts": "1607087900"
+                    }
+                }
+            },
+            "stars": 8,
+            "name": "joeprinold",
+            "id": "1047164",
+            "local_score": 38
+        },
+        "1048178": {
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "get_star_ts": "1606845023"
+                    },
+                    "2": {
+                        "get_star_ts": "1606925613"
+                    }
+                },
+                "2": {
+                    "1": {
+                        "get_star_ts": "1606929612"
+                    },
+                    "2": {
+                        "get_star_ts": "1606930013"
+                    }
+                },
+                "3": {
+                    "1": {
+                        "get_star_ts": "1606988886"
+                    },
+                    "2": {
+                        "get_star_ts": "1606989958"
+                    }
+                },
+                "4": {
+                    "1": {
+                        "get_star_ts": "1607075290"
+                    },
+                    "2": {
+                        "get_star_ts": "1607079999"
+                    }
+                }
+            },
+            "global_score": 0,
+            "stars": 8,
+            "last_star_ts": "1607079999",
+            "name": "Benjamin Lavelle",
+            "id": "1048178",
+            "local_score": 39
+        },
+        "1051302": {
+            "id": "1051302",
+            "local_score": 14,
+            "last_star_ts": "1606913900",
+            "stars": 4,
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "get_star_ts": "1606844822"
+                    },
+                    "2": {
+                        "get_star_ts": "1606846050"
+                    }
+                },
+                "2": {
+                    "1": {
+                        "get_star_ts": "1606913473"
+                    },
+                    "2": {
+                        "get_star_ts": "1606913900"
+                    }
+                }
+            },
+            "global_score": 0,
+            "name": "tpin13"
+        },
+        "1057834": {
+            "last_star_ts": "1607074252",
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "get_star_ts": "1606849844"
+                    },
+                    "2": {
+                        "get_star_ts": "1606849902"
+                    }
+                },
+                "2": {
+                    "1": {
+                        "get_star_ts": "1606943374"
+                    },
+                    "2": {
+                        "get_star_ts": "1606943921"
+                    }
+                },
+                "3": {
+                    "1": {
+                        "get_star_ts": "1607024673"
+                    },
+                    "2": {
+                        "get_star_ts": "1607024963"
+                    }
+                },
+                "4": {
+                    "1": {
+                        "get_star_ts": "1607074252"
+                    }
+                }
+            },
+            "stars": 7,
+            "global_score": 0,
+            "name": "Calum Barnett",
+            "local_score": 20,
+            "id": "1057834"
+        },
+        "1061826": {
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "get_star_ts": "1606853282"
+                    },
+                    "2": {
+                        "get_star_ts": "1606853521"
+                    }
+                },
+                "2": {
+                    "1": {
+                        "get_star_ts": "1606909211"
+                    },
+                    "2": {
+                        "get_star_ts": "1606910424"
+                    }
+                },
+                "3": {
+                    "1": {
+                        "get_star_ts": "1606992098"
+                    },
+                    "2": {
+                        "get_star_ts": "1606993526"
+                    }
+                },
+                "4": {
+                    "1": {
+                        "get_star_ts": "1607077862"
+                    },
+                    "2": {
+                        "get_star_ts": "1607080019"
+                    }
+                }
+            },
+            "global_score": 0,
+            "stars": 8,
+            "last_star_ts": "1607080019",
+            "name": "Thomas-Hirsch",
+            "local_score": 44,
+            "id": "1061826"
+        },
+        "1096237": {
+            "id": "1096237",
+            "local_score": 44,
+            "global_score": 0,
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "get_star_ts": "1606908331"
+                    },
+                    "2": {
+                        "get_star_ts": "1606911151"
+                    }
+                },
+                "2": {
+                    "1": {
+                        "get_star_ts": "1606921155"
+                    },
+                    "2": {
+                        "get_star_ts": "1606921685"
+                    }
+                },
+                "3": {
+                    "1": {
+                        "get_star_ts": "1606986097"
+                    },
+                    "2": {
+                        "get_star_ts": "1606990334"
+                    }
+                },
+                "4": {
+                    "1": {
+                        "get_star_ts": "1607075302"
+                    },
+                    "2": {
+                        "get_star_ts": "1607078483"
+                    }
+                }
+            },
+            "stars": 8,
+            "last_star_ts": "1607078483",
+            "name": "pjrh-moj"
+        },
+        "1123517": {
+            "local_score": 22,
+            "id": "1123517",
+            "last_star_ts": "1607071013",
+            "global_score": 0,
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "get_star_ts": "1606947217"
+                    },
+                    "2": {
+                        "get_star_ts": "1606947809"
+                    }
+                },
+                "2": {
+                    "1": {
+                        "get_star_ts": "1607014350"
+                    },
+                    "2": {
+                        "get_star_ts": "1607014701"
+                    }
+                },
+                "3": {
+                    "1": {
+                        "get_star_ts": "1607022597"
+                    },
+                    "2": {
+                        "get_star_ts": "1607023282"
+                    }
+                },
+                "4": {
+                    "1": {
+                        "get_star_ts": "1607071013"
+                    }
+                }
+            },
+            "stars": 7,
+            "name": "Alec Johnson"
+        },
+        "1140492": {
+            "local_score": 0,
+            "id": "1140492",
+            "name": "mincorp",
+            "stars": 2,
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "get_star_ts": "1607000794"
+                    },
+                    "2": {
+                        "get_star_ts": "1607014558"
+                    }
+                }
+            },
+            "global_score": 0,
+            "last_star_ts": "1607014558"
+        }
+    },
+    "event": "2020"
+}
